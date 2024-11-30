@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPDC Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <style>
+        #map { height: 400px; }
+        #controls { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="controls">
+        <select id="start">
+            <option value="">Select start point</option>
+        </select>
+        <select id="end">
+            <option value="">Select end point</option>
+        </select>
+        <button id="findPath">Find Path</button>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="/js/map.js"></script>
+</body>
+</html>
